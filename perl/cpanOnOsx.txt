@@ -1,0 +1,3 @@
+sudo perl -MCPAN -e shell
+sudo perl -MCPAN -e 'install Bundle::CPAN'
+sudo perl -MCPAN -e 'install Module::Name'
