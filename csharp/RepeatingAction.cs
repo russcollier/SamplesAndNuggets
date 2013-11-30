@@ -4,6 +4,9 @@ using System.Threading.Tasks;
 
 namespace Utilities.Threading
 {
+    /// <summary>
+    /// Thanks Stack Overflow - http://stackoverflow.com/a/7472334
+    /// </summary>
     public static class RepeatingAction
     {
         public static Task Interval(TimeSpan interval, Action action, CancellationToken token)
